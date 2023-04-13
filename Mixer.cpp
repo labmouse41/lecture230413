@@ -18,5 +18,5 @@ void FMixer::Input(FFruit in)
 
 void FMixer::Output()
 {
-	std::cout << JuiceOut.GetIngredient().name << " 쥬스가 만들어 졌습니다.";
+	std::cout << JuiceOut.GetIngredient().GetName() << " 쥬스가 만들어 졌습니다.";
 }

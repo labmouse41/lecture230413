@@ -7,3 +7,8 @@ FFruit::FFruit()
 FFruit::~FFruit()
 {
 }
+
+std::string FFruit::GetName()
+{
+	return name;
+}
